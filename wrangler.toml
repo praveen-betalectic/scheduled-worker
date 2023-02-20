@@ -1,0 +1,6 @@
+name = "scheduled-worker"
+main = "src/index.js"
+compatibility_date = "2023-02-20"
+
+[triggers]
+crons = [ "* * * * *" ]
